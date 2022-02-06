@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Galerie</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Devonshire&family=Lato:wght@100;300;400;700;900&family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/lightbox.min.css">
+	<link rel="stylesheet" type="text/css" href="css/venobox.css" media="screen">
+</head>
+<body>
+
+	<!-- SIZE -->
+	<!-- <span class="d-block d-sm-none">SIZE XS</span>
+	<span class="d-none d-sm-block d-md-none">SIZE SM</span>
+	<span class="d-none d-md-block d-lg-none">SIZE MD</span>
+	<span class="d-none d-lg-block d-xl-none">SIZE LG</span>
+	<span class="d-none d-xl-block d-xxl-none">SIZE XL</span>
+	<span class="d-none d-xxl-block">SIZE XXL</span> -->
+
+	<!-- Navigation-->
+	<nav id="navPrincipal" class="navbar navbar-expand-lg fixed-top"> 
+		<div class="container">
+			<div class="row w-100 d-flex align-items-center">
+		  		<div class="col-12 col-lg-2 d-flex justify-content-center">
+		  			<a class="navbar-brand" href="index.html"><img src="img/logo01.png" alt="logo-Tiako"></a>
+		  		</div>
+
+		  		<div class="col-12 col-xl-2 d-flex justify-content-lg-end justify-content-xxl-start order-lg-2 d-flex justify-content-center">
+			    	<form class="">
+			        	<button class="tipss txt-B maj txt-lato"><a href="nousaider.html#F1Don">faire un don <i class="fas fa-donate fa-lg"></i></a>
+			        	</button>
+			    	</form>
+			    </div>
+
+			    <div class="col-12 col-lg-10 col-xl-8 order-lg-1 d-flex justify-content-center">
+			    	<button class="navbar-toggler mt-2" 
+			    			type="button" 
+			    			data-bs-toggle="collapse" 
+			    			data-bs-target="#navbarSupportedContent" 
+			    			aria-controls="navbarSupportedContent" 
+			    			aria-expanded="false" 
+			    			aria-label="Toggle navigation">
+			    			<i class="fas fa-caret-down txt-B fa-2x"></i>
+				    </button>
+				    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				      <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center">
+				        <li class="nav-item">
+				          <a class="nav-link link-warning" href="nousdecouvrir.html">Nous découvrir</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link link-warning" href="projets.html">Projets</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link link-warning" href="actualites.html">Actualités</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link link-warning" href="nousaider.html">Nous aider</a>
+				        </li>
+				        <li class="nav-item actv-lk">
+				          <a class="nav-link link-warning" href="galerie.html">Galerie</a>
+				        </li>				        
+				        <li class="nav-item">
+				          <a class="nav-link link-warning" href="contact.html">Contact</a>
+				        </li>
+				        <li class="nav-item">
+				        	<div class="d-flex">
+				        		<a class="nav-link link-warning" href="https://www.youtube.com/"><i class="fab fa-youtube-square fa-2x"></i></a>
+								<a class="nav-link link-warning" href="https://www.facebook.com/groups/391225650919391/"><i class="fab fa-facebook-square fa-2x"></i></a>
+				        	</div>
+				        </li>
+				      </ul>
+				    </div>
+				</div>
+			</div>
+	    </div>
+	</nav>
+	 
+	
+	<!-- Main -->
+	<main>
+		<!-- ButtonRight-TopDirection - -->
+		<div class="sideDirection">
+			<a href="#top">
+				<i class="fas fa-caret-up"></i>
+			</a>
+		</div>
+		<!-- Intro -->
+		<section class="intro-galerie">
+			<div class="container">
+				<div class="row pb-5">
+					<div class="col-12 d-flex align-items-center flex-column">
+						<h1 class="titre-img titre-P txt-B cT">Galerie</h1>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="galerie-part">
+			<div class="sidenav">
+			  <h4><a href="#madaga">Madagascar</a></h4> 
+			  <h4><a href="#fort">Fort Dauphin</a></h4> 
+			  <h4><a href="#portraits">Portraits</a></h4> 
+			  <h4><a href="#travaux">Travaux </a></h4>
+			  <h4><a href="#sorties">Sorties enfants</a></h4> 
+			  <h4><a href="#moments">Moments du quotidien</a></h4> 
+			  <h4><a href="#activites">Activités créatives</a></h4> 
+			  <h4><a href="#boutique">Boutique</a></h4>
+			  <h4><a href="#videos">Vidéos</a></h4>  
+			</div>
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-7 col-lg-12 my-5">
+						<p class="proverbe">Toutes nos émotions se partagent en image</p>
+					</div>
+				</div>
+				<div class="row">
+					
+
+					<!-- Galerie Madagascar -->
+					<div class="col-12 d-flex flex-wrap justify-content-between flex-column flex-md-row border-bottom border-success pb-4" id="madaga">
+						<div class="imgModf">
+							<a href="img/galerie-img/gal-titre-madag01.JPG" data-lightbox="Gal-madagascar" data-title="Photo paysage de Madagascar">
+								<img class="w-100" src="img/galerie-img/gal-titre-madag01.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/madag/1.JPG" data-lightbox="Gal-madagascar" data-title="Photo paysage de Madagascar">
+								<img class="w-100" src="img/galerie-img/madag/1.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/madag/3.JPG" data-lightbox="Gal-madagascar" data-title="Photo paysage de Madagascar">
+								<img class="w-100" src="img/galerie-img/madag/3.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/madag/4.JPG" data-lightbox="Gal-madagascar" data-title="Photo paysage de Madagascar">
+								<img class="w-100" src="img/galerie-img/madag/4.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/madag/5.JPG" data-lightbox="Gal-madagascar" data-title="Photo paysage de Madagascar">
+								<img class="w-100" src="img/galerie-img/madag/5.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf" id="bobriss">
+							<a href="img/galerie-img/madag/13.JPG" data-lightbox="Gal-madagascar" data-title="Photo paysage de Madagascar">
+								<img class="w-100" src="img/galerie-img/madag/13.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/madag/15.JPG" data-lightbox="Gal-madagascar" data-title="Photo paysage de Madagascar">
+								<img class="w-100" src="img/galerie-img/madag/15.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/madag/8.JPG" data-lightbox="Gal-madagascar" data-title="Photo paysage de Madagascar">
+								<img class="w-100" src="img/galerie-img/madag/8.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/madag/9.JPG" data-lightbox="Gal-madagascar" data-title="Photo paysage de Madagascar">
+								<img class="w-100" src="img/galerie-img/madag/9.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/madag/12.JPG" data-lightbox="Gal-madagascar" data-title="Photo paysage de Madagascar">
+								<img class="w-100" src="img/galerie-img/madag/12.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/madag/10.JPG" data-lightbox="Gal-madagascar" data-title="Photo paysage de Madagascar">
+								<img class="w-100" src="img/galerie-img/madag/10.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/madag/11.JPG" data-lightbox="Gal-madagascar" data-title="Photo paysage de Madagascar">
+								<img class="w-100" src="img/galerie-img/madag/11.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/madag/6.JPG" data-lightbox="Gal-madagascar" data-title="Photo paysage de Madagascar">
+								<img class="w-100" src="img/galerie-img/madag/6.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/madag/2.JPG" data-lightbox="Gal-madagascar" data-title="Photo paysage de Madagascar">
+								<img class="w-100" src="img/galerie-img/madag/2.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/madag/16.JPG" data-lightbox="Gal-madagascar" data-title="Photo paysage de Madagascar">
+								<img class="w-100" src="img/galerie-img/madag/16.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/madag/7.JPG" data-lightbox="Gal-madagascar" data-title="Photo paysage de Madagascar">
+								<img class="w-100" src="img/galerie-img/madag/7.JPG" alt="paysage"></a>
+						</div>
+					</div>
+					<!-- Galerie Fort Daufin -->
+
+					<!-- <div class="col-5 d-block d-sm-none"></div> -->
+					<div class="col-12 d-flex flex-wrap justify-content-between flex-column flex-md-row border-bottom border-success py-5" id="fort">
+						<div class="imgModf">
+							<a href="img/galerie-img/fort-dauphin/1.JPG" data-lightbox="Gal-FortDauphin" data-title="Tiako vous fait découvrir sa belle ville Fort Dauphin">
+								<img class="w-100" src="img/galerie-img/fort-dauphin/1.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/fort-dauphin/2.JPG" data-lightbox="Gal-FortDauphin" data-title="Tiako vous fait découvrir sa belle ville Fort Dauphin">
+								<img class="w-100" src="img/galerie-img/fort-dauphin/2.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/fort-dauphin/3.JPG" data-lightbox="Gal-FortDauphin" data-title="Tiako vous fait découvrir sa belle ville Fort Dauphin">
+								<img class="w-100" src="img/galerie-img/fort-dauphin/3.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/fort-dauphin/4.JPG" data-lightbox="Gal-FortDauphin" data-title="Tiako vous fait découvrir sa belle ville Fort Dauphin">
+								<img class="w-100" src="img/galerie-img/fort-dauphin/4.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/fort-dauphin/5.JPG" data-lightbox="Gal-FortDauphin" data-title="Tiako vous fait découvrir sa belle ville Fort Dauphin">
+								<img class="w-100" src="img/galerie-img/fort-dauphin/5.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/fort-dauphin/6.JPG" data-lightbox="Gal-FortDauphin" data-title="Tiako vous fait découvrir sa belle ville Fort Dauphin">
+								<img class="w-100" src="img/galerie-img/fort-dauphin/6.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/fort-dauphin/7.JPG" data-lightbox="Gal-FortDauphin" data-title="Tiako vous fait découvrir sa belle ville Fort Dauphin">
+								<img class="w-100" src="img/galerie-img/fort-dauphin/7.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/fort-dauphin/8.JPG" data-lightbox="Gal-FortDauphin" data-title="Tiako vous fait découvrir sa belle ville Fort Dauphin">
+								<img class="w-100" src="img/galerie-img/fort-dauphin/8.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/fort-dauphin/9.JPG" data-lightbox="Gal-FortDauphin" data-title="Tiako vous fait découvrir sa belle ville Fort Dauphin">
+								<img class="w-100" src="img/galerie-img/fort-dauphin/9.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/fort-dauphin/10.JPG" data-lightbox="Gal-FortDauphin" data-title="Tiako vous fait découvrir sa belle ville Fort Dauphin">
+								<img class="w-100" src="img/galerie-img/fort-dauphin/10.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/fort-dauphin/11.JPG" data-lightbox="Gal-FortDauphin" data-title="Tiako vous fait découvrir sa belle ville Fort Dauphin">
+								<img class="w-100" src="img/galerie-img/fort-dauphin/11.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/fort-dauphin/12.JPG" data-lightbox="Gal-FortDauphin" data-title="Tiako vous fait découvrir sa belle ville Fort Dauphin">
+								<img class="w-100" src="img/galerie-img/fort-dauphin/12.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/fort-dauphin/13.JPG" data-lightbox="Gal-FortDauphin" data-title="Tiako vous fait découvrir sa belle ville Fort Dauphin">
+								<img class="w-100" src="img/galerie-img/fort-dauphin/13.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/fort-dauphin/14.JPG" data-lightbox="Gal-FortDauphin" data-title="Tiako vous fait découvrir sa belle ville Fort Dauphin">
+								<img class="w-100" src="img/galerie-img/fort-dauphin/14.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/fort-dauphin/15.JPG" data-lightbox="Gal-FortDauphin" data-title="Tiako vous fait découvrir sa belle ville Fort Dauphin">
+								<img class="w-100" src="img/galerie-img/fort-dauphin/15.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/fort-dauphin/16.JPG" data-lightbox="Gal-FortDauphin" data-title="Tiako vous fait découvrir sa belle ville Fort Dauphin">
+								<img class="w-100" src="img/galerie-img/fort-dauphin/16.JPG" alt="paysage"></a>
+						</div>
+					</div>
+					<!-- Galerie Portraits -->
+
+					<div class="col-12 d-flex flex-wrap justify-content-between flex-column flex-md-row border-bottom border-success py-5" id="portraits">
+						<div class="imgModf" id="titiza">
+							<a href="img/galerie-img/portraits/1.JPG" data-lightbox="Gal-Portraits" data-title="Le portrait est un art muet,qui donne naissance à une image parlante.">
+								<img class="w-100" src="img/galerie-img/portraits/1.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/portraits/2.JPG" data-lightbox="Gal-Portraits" data-title="Le portrait est un art muet,qui donne naissance à une image parlante.">
+								<img class="w-100" src="img/galerie-img/portraits/2.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/portraits/3.JPG" data-lightbox="Gal-Portraits" data-title="Le portrait est un art muet,qui donne naissance à une image parlante.">
+								<img class="w-100" src="img/galerie-img/portraits/3.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/portraits/4.JPG" data-lightbox="Gal-Portraits" data-title="Le portrait est un art muet,qui donne naissance à une image parlante.">
+								<img class="w-100" src="img/galerie-img/portraits/4.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/portraits/5.JPG" data-lightbox="Gal-Portraits" data-title="Le portrait est un art muet,qui donne naissance à une image parlante.">
+								<img class="w-100" src="img/galerie-img/portraits/5.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/portraits/6.JPG" data-lightbox="Gal-Portraits" data-title="Le portrait est un art muet,qui donne naissance à une image parlante.">
+								<img class="w-100" src="img/galerie-img/portraits/6.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/portraits/7.JPG" data-lightbox="Gal-Portraits" data-title="Le portrait est un art muet,qui donne naissance à une image parlante.">
+								<img class="w-100" src="img/galerie-img/portraits/7.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/portraits/8.JPG" data-lightbox="Gal-Portraits" data-title="Le portrait est un art muet,qui donne naissance à une image parlante.">
+								<img class="w-100" src="img/galerie-img/portraits/8.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/portraits/9.JPG" data-lightbox="Gal-Portraits" data-title="Le portrait est un art muet,qui donne naissance à une image parlante.">
+								<img class="w-100" src="img/galerie-img/portraits/9.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/portraits/10.JPG" data-lightbox="Gal-Portraits" data-title="Le portrait est un art muet,qui donne naissance à une image parlante.">
+								<img class="w-100" src="img/galerie-img/portraits/10.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/portraits/11.JPG" data-lightbox="Gal-Portraits" data-title="Le portrait est un art muet,qui donne naissance à une image parlante.">
+								<img class="w-100" src="img/galerie-img/portraits/11.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/portraits/12.JPG" data-lightbox="Gal-Portraits" data-title="Le portrait est un art muet,qui donne naissance à une image parlante.">
+								<img class="w-100" src="img/galerie-img/portraits/12.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/portraits/13.JPG" data-lightbox="Gal-Portraits" data-title="Le portrait est un art muet,qui donne naissance à une image parlante.">
+								<img class="w-100" src="img/galerie-img/portraits/13.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/portraits/14.JPG" data-lightbox="Gal-Portraits" data-title="Le portrait est un art muet,qui donne naissance à une image parlante.">
+								<img class="w-100" src="img/galerie-img/portraits/14.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/portraits/15.JPG" data-lightbox="Gal-Portraits" data-title="Le portrait est un art muet,qui donne naissance à une image parlante.">
+								<img class="w-100" src="img/galerie-img/portraits/15.JPG" alt="paysage"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/portraits/16.JPG" data-lightbox="Gal-Portraits" data-title="Le portrait est un art muet,qui donne naissance à une image parlante.">
+								<img class="w-100" src="img/galerie-img/portraits/16.JPG" alt="paysage"></a>
+						</div>
+					</div>
+
+					<!-- Galerie Travaux -->
+
+					<div class="col-12 d-flex flex-wrap justify-content-between flex-column flex-md-row border-bottom border-success py-5" id="travaux">
+						<div class="imgModf">
+							<a href="img/galerie-img/travaux/1.JPG" data-lightbox="Gal-travaux" data-title="toilette sèche construite par un menuisier de la ville sur commande, pour tester – avantage : pas d’eau, qui est une ressource chère et précieuse en saison chaude / hygiénique">
+								<img class="w-100" src="img/galerie-img/travaux/1.JPG" alt="travaux"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/travaux/2.JPG" data-lightbox="Gal-travaux" data-title="toilette sèche construite par un menuisier de la ville sur commande, pour tester – avantage : pas d’eau, qui est une ressource chère et précieuse en saison chaude / hygiénique">
+								<img class="w-100" src="img/galerie-img/travaux/2.JPG" alt="travaux"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/travaux/3.JPG" data-lightbox="Gal-travaux" data-title="préau construit dans le jardin, pour avoir une zone d’ombre pour les jeux et moments de divertissement ">
+								<img class="w-100" src="img/galerie-img/travaux/3.JPG" alt="travaux"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/travaux/5.JPG" data-lightbox="Gal-travaux" data-title="préau construit dans le jardin, pour avoir une zone d’ombre pour les jeux et moments de divertissement ">
+								<img class="w-100" src="img/galerie-img/travaux/5.JPG" alt="travaux"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/travaux/6.JPG" data-lightbox="Gal-travaux" data-title="les dortoirs des enfants : nous avons fait plusieurs réaménagements des dortoirs afin de gagner en espace, afin aussi de pouvoir nettoyer les dortoirs plus aisément, ce qui lutte contre les insectes (ex invasion de punaises), désinsectisation de la maison entière, rachat de draps, de rideaux, réparation des vitres cassées, construction sur mesure de tables et de bancs pour pouvoir dessiner ou faire les devoirs dans les chambres">
+								<img class="w-100" src="img/galerie-img/travaux/6.JPG" alt="travaux"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/travaux/9.JPG" data-lightbox="Gal-travaux" data-title=" les dortoirs des enfants : nous avons fait plusieurs réaménagements des dortoirs afin de gagner en espace, afin aussi de pouvoir nettoyer les dortoirs plus aisément, ce qui lutte contre les insectes (ex invasion de punaises), désinsectisation de la maison entière, rachat de draps, de rideaux, réparation des vitres cassées, construction sur mesure de tables et de bancs pour pouvoir dessiner ou faire les devoirs dans les chambres">
+								<img class="w-100" src="img/galerie-img/travaux/9.JPG" alt="travaux"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/travaux/13.JPG" data-lightbox="Gal-travaux" data-title="travaux d’une nouvelle maison pour les grands garçons car ils manquaient de place. Fondations et construction de A à Z. Commande et achat de mobilier et aménagement intérieur. Nous avons conçu une douche annexe.">
+								<img class="w-100" src="img/galerie-img/travaux/13.JPG" alt="travaux"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/travaux/14.JPG" data-lightbox="Gal-travaux" data-title="travaux d’une nouvelle maison pour les grands garçons car ils manquaient de place. Fondations et construction de A à Z. Commande et achat de mobilier et aménagement intérieur. Nous avons conçu une douche annexe.">
+								<img class="w-100" src="img/galerie-img/travaux/14.JPG" alt="travaux"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/travaux/16.JPG" data-lightbox="Gal-travaux" data-title="travaux d’une nouvelle maison pour les grands garçons car ils manquaient de place. Fondations et construction de A à Z. Commande et achat de mobilier et aménagement intérieur. Nous avons conçu une douche annexe.">
+								<img class="w-100" src="img/galerie-img/travaux/16.JPG" alt="travaux"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/travaux/17.JPG" data-lightbox="Gal-travaux" data-title="travaux d’une nouvelle maison pour les grands garçons car ils manquaient de place. Fondations et construction de A à Z. Commande et achat de mobilier et aménagement intérieur. Nous avons conçu une douche annexe.">
+								<img class="w-100" src="img/galerie-img/travaux/17.JPG" alt="travaux"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/travaux/18.JPG" data-lightbox="Gal-travaux" data-title="design et construction d’une plaque à l’entrée du chemin menant à l’orphelinat. Nous l’avons ensuite peinte avec les enfants.">
+								<img class="w-100" src="img/galerie-img/travaux/18.JPG" alt="travaux"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/travaux/20.JPG" data-lightbox="Gal-travaux" data-title="design et construction d’une plaque à l’entrée du chemin menant à l’orphelinat. Nous l’avons ensuite peinte avec les enfants.">
+								<img class="w-100" src="img/galerie-img/travaux/20.JPG" alt="travaux"></a>
+						</div>
+					</div>
+					<!-- Galerie Sorties-Enfants -->
+
+					<div class="col-12 d-flex flex-wrap justify-content-between flex-column flex-md-row border-bottom border-success py-5" id="sorties">
+						<div class="imgModf">
+							<a href="img/galerie-img/sorties/1.JPG" data-lightbox="Gal-sortiesEnfants" data-title="Plusieurs sorties avec les enfants">
+								<img class="w-100" src="img/galerie-img/sorties/1.JPG" alt="sorties"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/sorties/2.JPG" data-lightbox="Gal-sortiesEnfants" data-title="Plusieurs sorties avec les enfants">
+								<img class="w-100" src="img/galerie-img/sorties/2.JPG" alt="sorties"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/sorties/3.JPG" data-lightbox="Gal-sortiesEnfants" data-title="Plusieurs sorties avec les enfants">
+								<img class="w-100" src="img/galerie-img/sorties/3.JPG" alt="sorties"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/sorties/4.JPG" data-lightbox="Gal-sortiesEnfants" data-title="Plusieurs sorties avec les enfants">
+								<img class="w-100" src="img/galerie-img/sorties/4.JPG" alt="sorties"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/sorties/5.JPG" data-lightbox="Gal-sortiesEnfants" data-title="Plusieurs sorties avec les enfants">
+								<img class="w-100" src="img/galerie-img/sorties/5.JPG" alt="sorties"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/sorties/6.JPG" data-lightbox="Gal-sortiesEnfants" data-title="Plusieurs sorties avec les enfants">
+								<img class="w-100" src="img/galerie-img/sorties/6.JPG" alt="sorties"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/sorties/7.JPG" data-lightbox="Gal-sortiesEnfants" data-title="Plusieurs sorties avec les enfants">
+								<img class="w-100" src="img/galerie-img/sorties/7.JPG" alt="sorties"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/sorties/8.JPG" data-lightbox="Gal-sortiesEnfants" data-title="Plusieurs sorties avec les enfants">
+								<img class="w-100" src="img/galerie-img/sorties/8.JPG" alt="sorties"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/sorties/9.JPG" data-lightbox="Gal-sortiesEnfants" data-title="Plusieurs sorties avec les enfants">
+								<img class="w-100" src="img/galerie-img/sorties/9.JPG" alt="sorties"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/sorties/10.JPG" data-lightbox="Gal-sortiesEnfants" data-title="Plusieurs sorties avec les enfants">
+								<img class="w-100" src="img/galerie-img/sorties/10.JPG" alt="sorties"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/sorties/11.JPG" data-lightbox="Gal-sortiesEnfants" data-title="Plusieurs sorties avec les enfants">
+								<img class="w-100" src="img/galerie-img/sorties/11.JPG" alt="sorties"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/sorties/12.JPG" data-lightbox="Gal-sortiesEnfants" data-title="Plusieurs sorties avec les enfants">
+								<img class="w-100" src="img/galerie-img/sorties/12.JPG" alt="sorties"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/sorties/13.JPG" data-lightbox="Gal-sortiesEnfants" data-title="Plusieurs sorties avec les enfants">
+								<img class="w-100" src="img/galerie-img/sorties/13.JPG" alt="sorties"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/sorties/14.JPG" data-lightbox="Gal-sortiesEnfants" data-title="Plusieurs sorties avec les enfants">
+								<img class="w-100" src="img/galerie-img/sorties/14.JPG" alt="sorties"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/sorties/15.JPG" data-lightbox="Gal-sortiesEnfants" data-title="Plusieurs sorties avec les enfants">
+								<img class="w-100" src="img/galerie-img/sorties/15.JPG" alt="sorties"></a>
+						</div>
+						<div class="imgModf" id="pikalala">
+							<a href="img/galerie-img/sorties/16.JPG" data-lightbox="Gal-sortiesEnfants" data-title="Plusieurs sorties avec les enfants">
+								<img class="w-100" src="img/galerie-img/sorties/16.JPG" alt="sorties"></a>
+						</div>
+					</div>
+					<!-- Galerie Moments Quotidien -->
+
+					<div class="col-12 d-flex flex-wrap justify-content-between flex-column flex-md-row border-bottom border-success py-5" id="moments">
+						<div class="imgModf">
+							<a href="img/galerie-img/moments/2.JPG" data-lightbox="Gal-Moments" data-title="atelier vélos. Action Tiako d’achat de vélos, de réparation, achat de pièces et partenariat avec le club vélos de Fort Dauphin – apprendre aux enfants à rouler à vélo, petits et grands qui n’ont pas eu l’occasion de monter sur un vélo jusque là, ou de rouler de temps en temps. Nous avons ensuite pu : faire des commissions en ville, faire une grande sortie avec une quinzaine de vélos, emmener les petits sur les porte-bagages pour des sorties occasionnelles, les grands ont pu aller à l’école en vélo et limiter leurs déplacements conséquents à pied…">
+								<img class="w-100" src="img/galerie-img/moments/2.JPG" alt="moments"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/moments/3.JPG" data-lightbox="Gal-Moments" data-title="atelier vélos. Action Tiako d’achat de vélos, de réparation, achat de pièces et partenariat avec le club vélos de Fort Dauphin – apprendre aux enfants à rouler à vélo, petits et grands qui n’ont pas eu l’occasion de monter sur un vélo jusque là, ou de rouler de temps en temps. Nous avons ensuite pu : faire des commissions en ville, faire une grande sortie avec une quinzaine de vélos, emmener les petits sur les porte-bagages pour des sorties occasionnelles, les grands ont pu aller à l’école en vélo et limiter leurs déplacements conséquents à pied…">
+								<img class="w-100" src="img/galerie-img/moments/3.JPG" alt="moments"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/moments/4.JPG" data-lightbox="Gal-Moments" data-title="les enfants apprennent à rouler à vélo dans le jardin">
+								<img class="w-100" src="img/galerie-img/moments/4.JPG" alt="moments"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/moments/5.JPG" data-lightbox="Gal-Moments" data-title="les enfants apprennent à rouler à vélo dans le jardin">
+								<img class="w-100" src="img/galerie-img/moments/5.JPG" alt="moments"></a>
+						</div>
+						<div class="imgModf" id="blassa">
+							<a href="img/galerie-img/moments/8.JPG" data-lightbox="Gal-Moments" data-title="babyfoot">
+								<img class="w-100" src="img/galerie-img/moments/8.JPG" alt="moments"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/moments/9.JPG" data-lightbox="Gal-Moments" data-title="moment repas dans le réfectoire. Ce sont les grandes qui préparent le repas du soir, en tournante, chaque jour un groupe différent">
+								<img class="w-100" src="img/galerie-img/moments/9.JPG" alt="moments"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/moments/11.JPG" data-lightbox="Gal-Moments" data-title="visite de médecins allemands : une délégation de médecins venant d’Allemagne a été accueillie pour faire des opérations dans des hôpitaux de la région. Nous en avons profité pour leur faire visiter l’orphelinat, montrer quelques plaies infectées et savoir comment les traiter, inviter des mamans pauvres avec des enfants handicapés pour envisager des interventions médicales. ">
+								<img class="w-100" src="img/galerie-img/moments/11.JPG" alt="moments"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/moments/13.JPG" data-lightbox="Gal-Moments" data-title="visite de médecins allemands : une délégation de médecins venant d’Allemagne a été accueillie pour faire des opérations dans des hôpitaux de la région. Nous en avons profité pour leur faire visiter l’orphelinat, montrer quelques plaies infectées et savoir comment les traiter, inviter des mamans pauvres avec des enfants handicapés pour envisager des interventions médicales. ">
+								<img class="w-100" src="img/galerie-img/moments/13.JPG" alt="moments"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/moments/14.JPG" data-lightbox="Gal-Moments" data-title="constitution progressive d’une pharmacie bien fournie à la maison">
+								<img class="w-100" src="img/galerie-img/moments/14.JPG" alt="moments"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/moments/15.JPG" data-lightbox="Gal-Moments" data-title="soin quotidien des plaies infectées, prise de médicaments, etc">
+								<img class="w-100" src="img/galerie-img/moments/15.JPG" alt="moments"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/moments/22.JPG" data-lightbox="Gal-Moments" data-title="jeux, moments de divertissement, coupe du bois pour la cuisine">
+								<img class="w-100" src="img/galerie-img/moments/22.JPG" alt="moments"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/moments/23.JPG" data-lightbox="Gal-Moments" data-title="jeux, moments de divertissement, coupe du bois pour la cuisine">
+								<img class="w-100" src="img/galerie-img/moments/23.JPG" alt="moments"></a>
+						</div>
+					</div>
+					<!-- Galerie Activités créatives -->
+
+					<div class="col-12 d-flex flex-wrap justify-content-between flex-column flex-md-row border-bottom border-success py-5" id="activites">
+						<div class="imgModf">
+							<a href="img/galerie-img/activites/2.JPG" data-lightbox="Gal-Activités" data-title="atelier « serviettes hygiéniques » avec les grandes filles : après être allées acheter aux fripes (marché quotidien de vêtements et tissus en friperie) des tissus adéquats, atelier couture sur base de patrons avec les adolescentes – objectif : des serviettes hygiéniques réutilisables et lavables, car les filles n’ont pas les moyens d’accéder à des serviettes jetables et utilisent des tissus de vieux vêtements lors de leurs menstruations. ">
+								<img class="w-100" src="img/galerie-img/activites/2.JPG" alt="Activités"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/activites/7.JPG" data-lightbox="Gal-Activités" data-title="activités créatives : dessin, peinture. Notamment un atelier « illustrations » sur base d’un conte que nous avons lu en français puis en malgache : les enfants ont illustré plusieurs scènes du conte pour raconter leur version dessinée de l’histoire (9 et 10).">
+								<img class="w-100" src="img/galerie-img/activites/7.JPG" alt="Activités"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/activites/8.JPG" data-lightbox="Gal-Activités" data-title="activités créatives : dessin, peinture. Notamment un atelier « illustrations » sur base d’un conte que nous avons lu en français puis en malgache : les enfants ont illustré plusieurs scènes du conte pour raconter leur version dessinée de l’histoire (9 et 10).">
+								<img class="w-100" src="img/galerie-img/activites/8.JPG" alt="Activités"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/activites/9.JPG" data-lightbox="Gal-Activités" data-title="activités créatives : dessin, peinture. Notamment un atelier « illustrations » sur base d’un conte que nous avons lu en français puis en malgache : les enfants ont illustré plusieurs scènes du conte pour raconter leur version dessinée de l’histoire (9 et 10).">
+								<img class="w-100" src="img/galerie-img/activites/9.JPG" alt="Activités"></a>
+						</div>
+						<div class="imgModf" id="boutique">
+							<a href="img/galerie-img/activites/10.JPG" data-lightbox="Gal-Activités" data-title="activités créatives : dessin, peinture. Notamment un atelier « illustrations » sur base d’un conte que nous avons lu en français puis en malgache : les enfants ont illustré plusieurs scènes du conte pour raconter leur version dessinée de l’histoire (9 et 10).">
+								<img class="w-100" src="img/galerie-img/activites/10.JPG" alt="Activités"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/activites/11.JPG" data-lightbox="Gal-Activités" data-title="activités créatives : dessin, peinture. Notamment un atelier « illustrations » sur base d’un conte que nous avons lu en français puis en malgache : les enfants ont illustré plusieurs scènes du conte pour raconter leur version dessinée de l’histoire (9 et 10).">
+								<img class="w-100" src="img/galerie-img/activites/11.JPG" alt="Activités"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/activites/12.JPG" data-lightbox="Gal-Activités" data-title="l’école primaire des petits, lors d’un trajet pour aller les chercher à l’école en fin de journée">
+								<img class="w-100" src="img/galerie-img/activites/12.JPG" alt="Activités"></a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/activites/13.JPG" data-lightbox="Gal-Activités" data-title="moment des devoirs dans la salle d’études de l’orphelinat.">
+								<img class="w-100" src="img/galerie-img/activites/13.JPG" alt="Activités"></a>
+						</div>
+					</div>
+					<!-- Galerie BOUTIQUE -->
+					<h3 class="text-center pt-4 mb-0">Si vous avez trouvé un article qui vous plaît, vous pouvez le réserver directement en cliquant sur le lien qui se trouve sous la photo </h3>
+
+					<div class="col-12 d-flex flex-wrap justify-content-between flex-column flex-md-row border-bottom border-success py-5" >
+						<div class="imgModf">
+							<a href="img/galerie-img/boutique/tb-01.jpeg" data-lightbox="Gal-Boutique" data-title="Huiles essentielles : 5 euros
+							Je ne détaille pas ici les propriétés de chacune, il est aisé de les trouver sur le net...Dispo: Ravintsara, Katrafay, Rambiazina, Citriodora, Niaouli, Ylang ylang  <a href='contact.html#msg'>lien de reservation</a> "> 
+								<img class="w-100" src="img/galerie-img/boutique/tb-01.jpeg" alt="Boutique">
+								<p>1</p>
+							</a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/boutique/tb-02.jpeg" data-lightbox="Gal-Boutique" data-title="Boucles d’oreilles : 3 euros/paire Minder weergeven <a href='contact.html#msg'>lien de reservation</a>">
+								<img class="w-100" src="img/galerie-img/boutique/tb-02.jpeg" alt="Boutique">
+								<p>2</p>
+							</a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/boutique/tb-03.jpeg" data-lightbox="Gal-Boutique" data-title="aBaumes : 3 euros/pièce – tous à base de plantes de Madagascar
+							- RAVINTSARA pour les rhinites, sinusites, bronchites, toux, début de grippe, stress, insomnie
+							- RAMBIAZINA pour les contusions, hématomes, ecchymoses, entorses, piqûres d’insectes, démangeaisons, brûlures mineures
+							- CITRIODORA pour les rhumatismes et douleurs articulaires
+							- NIAOULI pour la grippe, toux, rhume
+							- KATRAFAY pour la fatigue, notamment nerveuse, anti-inflammatoire et antidouleur
+							- ROMBA est un anti-infectieux, antibactérien, antisepstique, paraticide, fongicide Minder weergeven <a href='contact.html#msg'>lien de reservation</a>">
+								<img class="w-100" src="img/galerie-img/boutique/tb-03.jpeg" alt="Boutique">
+								<p>3</p>
+							</a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/boutique/tb-04.jpeg" data-lightbox="Gal-Boutique" data-title="Boucles d’oreilles : 3 euros/paire Minder weergeven <a href='contact.html#msg'>lien de reservation</a>">
+								<img class="w-100" src="img/galerie-img/boutique/tb-04.jpeg" alt="Boutique">
+								<p>4</p>
+							</a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/boutique/tb-05.jpeg" data-lightbox="Gal-Boutique" data-title="6 t-shirts revisités aux couleurs de tissus africains et aux motifs originaux, chaque pièce est unique. <a href='contact.html#msg'>lien de reservation</a>">
+								<img class="w-100" src="img/galerie-img/boutique/tb-05.jpeg" alt="Boutique">
+								<p>5</p>
+							</a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/boutique/tb-06.jpeg" data-lightbox="Gal-Boutique" data-title="6 t-shirts revisités aux couleurs de tissus africains et aux motifs originaux, chaque pièce est unique. <a href='contact.html#msg'>lien de reservation</a>">
+								<img class="w-100" src="img/galerie-img/boutique/tb-06.jpeg" alt="Boutique">
+								<p>6</p>
+							</a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/boutique/tb-08.jpeg" data-lightbox="Gal-Boutique" data-title="6 t-shirts revisités aux couleurs de tissus africains et aux motifs originaux, chaque pièce est unique. <a href='contact.html#msg'>lien de reservation</a>">
+								<img class="w-100" src="img/galerie-img/boutique/tb-08.jpeg" alt="Boutique">
+								<p>7</p>
+							</a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/boutique/tb-09.jpeg" data-lightbox="Gal-Boutique" data-title="6 t-shirts revisités aux couleurs de tissus africains et aux motifs originaux, chaque pièce est unique. <a href='contact.html#msg'>lien de reservation</a>">
+								<img class="w-100" src="img/galerie-img/boutique/tb-09.jpeg" alt="Boutique">
+								<p>8</p>
+							</a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/boutique/tb-14.jpeg" data-lightbox="Gal-Boutique" data-title="Tissus : 7 euros Il y en a 4, de couleurs différentes (voir photos) et ils mesurent 110 sur 140 cm, sauf le bleu à fleurs roses qui fait 110 x 115 cm. Peuvent se porter comme foulard, bandeau pour les cheveux, paréo ou décoration intérieure, sur un sofa par exemple. <a href='contact.html#msg'>lien de reservation</a>">
+								<img class="w-100" src="img/galerie-img/boutique/tb-14.jpeg" alt="Boutique">
+								<p>9</p>
+							</a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/boutique/tb-10.jpeg" data-lightbox="Gal-Boutique" data-title="Tissus : 7 euros Il y en a 4, de couleurs différentes (voir photos) et ils mesurent 110 sur 140 cm, sauf le bleu à fleurs roses qui fait 110 x 115 cm. Peuvent se porter comme foulard, bandeau pour les cheveux, paréo ou décoration intérieure, sur un sofa par exemple. <a href='contact.html#msg'>lien de reservation</a>">
+								<img class="w-100" src="img/galerie-img/boutique/tb-10.jpeg" alt="Boutique">
+								<p>10</p>
+							</a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/boutique/tb-11.jpeg" data-lightbox="Gal-Boutique" data-title="Tissus : 7 euros Il y en a 4, de couleurs différentes (voir photos) et ils mesurent 110 sur 140 cm, sauf le bleu à fleurs roses qui fait 110 x 115 cm. Peuvent se porter comme foulard, bandeau pour les cheveux, paréo ou décoration intérieure, sur un sofa par exemple. <a href='contact.html#msg'>lien de reservation</a>">
+								<img class="w-100" src="img/galerie-img/boutique/tb-11.jpeg" alt="Boutique">
+								<p>11</p>
+							</a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/boutique/tb-13.jpeg" data-lightbox="Gal-Boutique" data-title="Tissus : 7 euros Il y en a 4, de couleurs différentes (voir photos) et ils mesurent 110 sur 140 cm, sauf le bleu à fleurs roses qui fait 110 x 115 cm. Peuvent se porter comme foulard, bandeau pour les cheveux, paréo ou décoration intérieure, sur un sofa par exemple. <a href='contact.html#msg'>lien de reservation</a>">
+								<img class="w-100" src="img/galerie-img/boutique/tb-13.jpeg" alt="Boutique">
+								<p>12</p>
+							</a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/boutique/tb-07.jpeg" data-lightbox="Gal-Boutique" data-title="6 t-shirts revisités aux couleurs de tissus africains et aux motifs originaux, chaque pièce est unique. <a href='contact.html#msg'>lien de reservation</a>">
+								<img class="w-100" src="img/galerie-img/boutique/tb-07.jpeg" alt="Boutique">
+								<p>13</p>
+							</a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/boutique/tb-077.jpeg" data-lightbox="Gal-Boutique" data-title="6 t-shirts revisités aux couleurs de tissus africains et aux motifs originaux, chaque pièce est unique. <a href='contact.html#msg'>lien de reservation</a>">
+								<img class="w-100" src="img/galerie-img/boutique/tb-077.jpeg" alt="Boutique">
+								<p>14</p>
+							</a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/boutique/tb-0777.jpeg" data-lightbox="Gal-Boutique" data-title="6 t-shirts revisités aux couleurs de tissus africains et aux motifs originaux, chaque pièce est unique. <a href='contact.html#msg'>lien de reservation</a>">
+								<img class="w-100" src="img/galerie-img/boutique/tb-0777.jpeg" alt="Boutique">
+								<p>15</p>
+							</a>
+						</div>
+						<div class="imgModf">
+							<a href="img/galerie-img/boutique/tb-07777.jpeg" data-lightbox="Gal-Boutique" data-title="6 t-shirts revisités aux couleurs de tissus africains et aux motifs originaux, chaque pièce est unique. <a href='contact.html#msg'>lien de reservation</a>">
+								<img class="w-100" src="img/galerie-img/boutique/tb-07777.jpeg" alt="Boutique">
+								<p>16</p>
+							</a>
+						</div>
+					</div>
+					<!-- Galerie VIDÉOS -->
+
+					<div class="col-12 d-flex flex-wrap py-5" id="videos">
+
+						<div class="videooo" style="background-image: url(img/img-gal1.jpg);">
+							<a class="venobox" data-vbtype="video" data-autoplay="true" href="https://youtu.be/tiRCtPxkpQY"><i class="far fa-play-circle"></i></a>
+						</div>
+						<div class="videooo" style="background-image: url(img/img-gal3.jpg);">
+							<a class="venobox" data-vbtype="video" data-autoplay="true" href="https://youtu.be/JbZFepIPlmY"><i class="far fa-play-circle"></i></a>
+						</div>
+						<div class="videooo" style="background-image: url(img/img-gal6.jpg);">
+							<a class="venobox" data-vbtype="video" data-autoplay="true" href="https://youtu.be/tiRCtPxkpQY"><i class="far fa-play-circle"></i></a>
+						</div>
+
+				</div>
+			</div>
+		</section>
+
+		
+
+
+	</main>
+<!-- Footer -->
+	<footer class="container-fluid">
+		<section class="row bg-V">
+			<div class="col-4 d-none d-lg-block ">
+				<img class="camL" src="img/Tiako-logo-Cam.png" alt="Tiako logo">
+			</div>
+			<div class="col-7 col-md-5 col-lg-3 txt-B d-flex flex-column justify-content-center pt-3">
+				<ul>
+					<li>Soutenez nos projets</li>
+					<li>en faisant un don</li>
+					<li>Tiako ASBL Belgique</li>
+					<li>Compte Nº</li>
+					<li>BE11 9733 6478 9348</li>
+					<li>Email: tiako@gmail.com</li>
+				</ul>
+			</div>
+			<div class="col-5 col-md-4 col-lg-2 d-flex flex-column justify-content-center pt-3">
+				<ul>
+					<li><a href="nousdecouvrir.html">Nous Découvrir</a></li>
+					<li><a href="actualites.html">Actualités</a></li>
+					<li><a href="projets.html">Projets</a></li>
+					<li><a href="galerie.html">Galerie</a></li>
+					<li><a href="nousaider.html">Nous aider</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<div class="col-5 col-md-3 col-lg-3 text-center d-flex flex-column justify-content-center">
+				<div>
+					<a href="#top"><img class="tiaL" src="img/Tiako-logo1.png" alt="retouHaut"></a>
+				</div>
+				<div class="icon-footer txt-B">
+					<a href="https://www.facebook.com/groups/391225650919391/"><i class="fab fa-facebook-square"></i></a>
+					<a href="https://www.youtube.com/"><i class="fab fa-youtube-square"></i></a>
+				</div>
+			</div>
+		</section>
+		<section class="row bg-B text-center txt-V py-2">
+			<div class="col-12">
+				<p class="mb-0">Copyright &copy; Tiako d'ici et d'ailleurs A.S.B.L - <a href="#">Mentions légales</a> - 2021</p> 
+			</div>
+		</section>
+	</footer>
+
+
+<script src="js/jquery-3.6.0.min.js"></script>
+
+<script src="js/venobox.min.js"></script>
+<script>
+	$(document).ready(function(){
+    $('.venobox').venobox(); 
+	});
+</script>
+
+<script src="js/lightbox.js"></script>
+<!-- <script src="js/lightbox-plus-jquery.min.js"></script>	 -->
+
+<script src="js/bootstrap.bundle.min.js" ></script>
+
+</body>
+</html>
